@@ -38,15 +38,15 @@ Welcome to the .NET Microservices Platform Commands repository. This project con
 
 ## Solution Architecture
 
-![Solution Architecture](image-4.png)
+![Solution Architecture](img/image-4.png)
 
 ### Platform Architecture
 
-![Platform Architecture](image-5.png)
+![Platform Architecture](img/image-5.png)
 
 ### Commands Architecture
 
-![Commands Architecture](image-6.png)
+![Commands Architecture](img/image-6.png)
 
 ## Introduction
 
