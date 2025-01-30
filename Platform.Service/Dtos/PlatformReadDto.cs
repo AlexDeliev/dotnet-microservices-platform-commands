@@ -1,5 +1,6 @@
 namespace Platform.Service.Dtos
 {
+    // This class is used to read a platform
     public class PlatformReadDto
     {        
         public int Id { get; set; }
