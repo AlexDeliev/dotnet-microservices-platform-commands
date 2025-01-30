@@ -9,6 +9,6 @@ namespace Platform.Service.Data
         {
         }
 
-        public DbSet<Platform.Service.Models.Platform> Platforms { get; set; }
+        public DbSet<PlatformModel> Platforms { get; set; }
     }
 }
