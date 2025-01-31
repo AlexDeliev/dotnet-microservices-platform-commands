@@ -45,5 +45,20 @@ namespace Platform.Service.Controllers
             }
             return NotFound();
         }
+
+        // POST api/platforms
+        [HttpPost]
+        public ActionResult<PlatformReadDto> CreatePlatform(PlatformCreateDto platformCreateDto)
+        {
+            Console.WriteLine("--> Creating Platform...");
+
+            var platformModel = _mapper.Map<PlatformModel>(platformCreateDto);
+            _repository.CreatePlatform(platformModel);
+            _repository.SaveChanges();
+
+            var platformReadDto = _mapper.Map<PlatformReadDto>(platformModel);
+
+            return CreatedAtRoute(nameof(GetPlatformById), new { Id = platformReadDto.Id }, platformReadDto);
+        }
     }
 }
