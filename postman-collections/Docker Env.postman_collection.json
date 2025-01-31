@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "04314316-de24-4f0a-b862-e89ec52b4be8",
+		"name": "Docker Env",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41553247",
+		"_collection_link": "https://www.postman.com/joint-operations-candidate-57632490/workspace/net-microservices-platrform-commands/collection/41553247-04314316-de24-4f0a-b862-e89ec52b4be8?action=share&source=collection_link&creator=41553247"
+	},
+	"item": [
+		{
+			"name": "Platform Service",
+			"item": [
+				{
+					"name": "Get All Platforms",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/platforms",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"platforms"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
