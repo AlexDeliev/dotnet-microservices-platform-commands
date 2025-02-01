@@ -38,7 +38,7 @@ Welcome to the .NET Microservices Platform Commands repository. This project con
 
 ## Solution Architecture
 
-![Solution Architecture](img/image-4.png)
+![image](https://github.com/user-attachments/assets/2ab64beb-73df-4bc0-b4be-09e1de55e645)
 
 ### Platform Architecture
 
